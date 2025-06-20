@@ -1,9 +1,13 @@
 /* CategoryBox.css */
-
 .category-box {
   width: 100px;
+  height: 130px; /* fixed height to allow spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* push text to bottom */
+  align-items: center;
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid #e93838;
   border-radius: 10px;
   padding: 16px;
   background-color: white;
@@ -15,9 +19,10 @@
 }
 
 .category-icon {
-  font-size: 2rem;
-  margin-bottom: 8px;
-  color: #333;
+  width: 40px;
+  height : 40px;
+  margin-bottom: 08px;
+  object-fit: contain; /* ensures the icon fits well */
 }
 
 .category-label {
@@ -27,4 +32,9 @@
 .BaseFont{
   font-family: 'Arial', sans-serif;
   
+}
+.category-heading {
+  border-left: 5px solid red; /* or 1px if you prefer */
+  padding-left: 10px;         /* space between text and border */
+  margin-bottom: 1rem;        /* optional spacing */
 }
