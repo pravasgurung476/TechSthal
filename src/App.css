@@ -16,11 +16,13 @@ html, body {
 
 .main-content {
   flex: 1;
+  margin-bottom: 2vh;
 }
 
 /* Base Navbar */
 .navbar {
   position: sticky;
+  margin-bottom: 2vh;
   top: 0;
   z-index: 50;
   display: flex;

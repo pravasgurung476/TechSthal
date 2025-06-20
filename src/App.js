@@ -11,19 +11,13 @@ function App() {
   return (
     <div className="app-container">
       <div className="main-content">
+        
         <Navbar />
-      </div>
       
-      <div>
-        {/* a<HomeCarousel /> */}
-      </div>
-      <div >
         <Categories />
+  
       </div>
-
-      <div>
         <Footer />
-      </div>
     </div>
   );
 }
