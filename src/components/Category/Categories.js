@@ -2,12 +2,15 @@
 import React from 'react';
 import CategoryBox from './CategoryBox';
 import categories from './CategoryData';
-
+// import VerticalBar from '../../assets/icons/VerticalBar.png'
 function Categories() {
   return (
     <div>
       <div style={{ textAlign: '', margin: '20px 0px 0px 30px' }}>
-        <h5 className="BaseFont">
+        
+        {/* <img src={VerticalBar} alt="Vertical Bar" style={{ width: '20px', height: '20px' }} /> */}
+
+        <h5 className="BaseFont category-heading">
           Categories
         </h5>
         <h2 className='BaseFont'>

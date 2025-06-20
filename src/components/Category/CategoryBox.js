@@ -5,7 +5,7 @@ function CategoryBox({ icon, label }) {
   return (
     <div className="category-box">
       <div className="category-icon">
-        <i className={`fas ${icon}`}></i>
+      <img src={icon} alt={label} className="category-icon" />
       </div>
       <p className="category-label">{label}</p>
     </div>
