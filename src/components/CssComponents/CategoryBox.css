@@ -1,0 +1,26 @@
+/* CategoryBox.css */
+
+.category-box {
+  width: 100px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: white;
+  transition: box-shadow 0.2s ease;
+}
+
+.category-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.category-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.category-label {
+  font-size: 0.9rem;
+  color: #333;
+}
