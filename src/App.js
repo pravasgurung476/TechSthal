@@ -2,20 +2,18 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-// import HomeCarousel from './components/HomeCarousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Categories from './components/Category/Categories';
+import Register from './components/RegisterLogin/Register';
 
 
 function App() {
   return (
     <div className="app-container">
-      <div className="main-content">
-        
-        <Navbar />
-      
-        <Categories />
-  
+      <div className="main-content">        
+        <Navbar />      
+        <Categories />  
+        {/* <Register /> */}
       </div>
         <Footer />
     </div>
