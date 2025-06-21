@@ -35,3 +35,9 @@
 .buy-now-btn:hover {
   background-color: #218838;
 }
+.ad-text{
+    position: absolute;
+    bottom: 200px;
+    left: 15px;
+    color: white;
+}

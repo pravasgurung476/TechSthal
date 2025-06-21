@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Categories from './components/Category/Categories';
 import Register from './components/RegisterLogin/Register';
 import Advertisement from './components/Advertisement/Advertisement';
+import Product from './components/Products/Product';
+import products from './components/Products/ProductData'; // 👈 import product list
 
 
 function App() {
@@ -15,6 +17,17 @@ function App() {
         <Navbar />      
         <Categories />  
         <Advertisement />
+<div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem', padding: '2rem' }}>
+  {products.map((product, index) => (
+    <Product
+      key={index}
+      image={product.image}
+      name={product.name}
+      price={product.price}
+    />
+  ))}
+</div>
+
 
       </div>
         <Footer />
