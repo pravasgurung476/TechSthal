@@ -1,5 +1,5 @@
 // src/components/CategoryBox.js
-import '../CssComponents/CategoryBox.css'; // Ensure you have this CSS file for styling
+import './CategoryBox.css'; // Ensure you have this CSS file for styling
 
 function CategoryBox({ icon, label }) {
   return (
