@@ -1,11 +1,12 @@
 import './Register.css';
 import loginImage from '../../assets/logo.png'; // adjust the path to your image
+import logo from '../../assets/logo.png'; // adjust the path to your logo
 
 function Register() {
   return (
     <div className="register-container">
       <div className="register-left">
-        <img src="../../assets/logo.png" alt="Techsthal Logo" className="register-logo" /> {/* Change if needed */}
+        <img src={logo} alt="Techsthal Logo" className="register-logo" /> {/* Change if needed */}
         <h2>Create an account</h2>
         <p>Enter your details below</p>
 
