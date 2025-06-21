@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Categories from './components/Category/Categories';
 import Register from './components/RegisterLogin/Register';
-
+import Advertisement from './components/Advertisement/Advertisement';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Navbar />      
         <Categories />  
         {/* <Register /> */}
+        <Advertisement />
       </div>
         <Footer />
     </div>
