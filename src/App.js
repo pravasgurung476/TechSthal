@@ -7,14 +7,15 @@ import Categories from './components/Category/Categories';
 import Register from './components/RegisterLogin/Register';
 import Advertisement from './components/Advertisement/Advertisement';
 
+
 function App() {
   return (
     <div className="app-container">
       <div className="main-content">        
         <Navbar />      
         <Categories />  
-        {/* <Register /> */}
         <Advertisement />
+
       </div>
         <Footer />
     </div>
