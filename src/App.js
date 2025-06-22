@@ -15,9 +15,8 @@ function App() {
       <div className="main-content">        
         <Navbar />      
         <Categories />  
-        {/* <Register /> */}
         <Advertisement />
-        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem', padding: '2rem' }}>
+<div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem', padding: '2rem' }}>
   {products.map((product, index) => (
     <Product
       key={index}
