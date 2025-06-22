@@ -8,7 +8,7 @@ import Register from './components/RegisterLogin/Register';
 import Advertisement from './components/Advertisement/Advertisement';
 import Product from './components/Products/Product';
 import products from './components/Products/ProductData'; // 👈 import product list
-
+import Bill from './components/Billing/Bill';
 function App() {
   return (
     <div className="app-container">
@@ -27,6 +27,8 @@ function App() {
     />
   ))}
 </div>
+
+  {/* <Bill /> */}
 
       </div>
         <Footer />
