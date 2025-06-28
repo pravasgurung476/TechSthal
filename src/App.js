@@ -8,16 +8,16 @@ import Register from './components/RegisterLogin/Register';
 import Advertisement from './components/Advertisement/Advertisement';
 import Product from './components/Products/Product';
 import products from './components/Products/ProductData'; // 👈 import product list
-
-
+import Bill from './components/Billing/Bill';
+import ProductDetails from './components/Products/ProductDetails';
 function App() {
   return (
     <div className="app-container">
       <div className="main-content">        
         <Navbar />      
-        <Categories />  
-        <Advertisement />
-<div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem', padding: '2rem' }}>
+        {/* <Categories />  
+        <Advertisement /> */}
+{/* <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem', padding: '2rem' }}>
   {products.map((product, index) => (
     <Product
       key={index}
@@ -28,6 +28,9 @@ function App() {
   ))}
 </div>
 
+  <Bill />
+  <ProductDetails /> */}
+      <Register />
 
       </div>
         <Footer />
